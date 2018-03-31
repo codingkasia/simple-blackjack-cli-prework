@@ -32,13 +32,14 @@ def hit?(initial_round)
   prompt_user
   input = get_user_input
   if(input == 's')
+    prompt_user
     
-    return initial_round
   elsif(input == 'h')
     return initial_round + deal_card
   else 
     prompt_user
   end
+  return initial_round
 end
 
 def invalid_command
