@@ -57,8 +57,6 @@ end
   if initial_round >21
     end_game(initial_round)
   else 
-    display_card_total(initial_round)
-  end
- 
+ end
 end
     
