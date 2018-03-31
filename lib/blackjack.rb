@@ -56,6 +56,8 @@ hit?(initial_round)
 end
   if initial_round >21
     end_game(initial_round)
+  else 
+    display_card_total(card_total)
   end
  
 end
