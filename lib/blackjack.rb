@@ -32,6 +32,7 @@ def hit?(initial_round)
   prompt_user
   input = get_user_input
   if(input == 's')
+    get_user_input
      return initial_round
   elsif(input == 'h')
   
